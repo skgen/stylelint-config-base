@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "review": "yarn review:styleling",
     "review:stylelint": "stylelint \"src/**/*.scss\" --fix --color",
     "link:local": "rm -rf node_modules/@patriarche/stylelint-config-base && yarn --check-files"
   },
